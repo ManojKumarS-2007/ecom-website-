@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.logo{
+    font-size: 50px;
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+
+}
+#navbody{
+    background-color: black !important ;
+}
+.nav-link {
+    color: white !important;
+}
+.icon{
+   background-color: white;
+   color: black;
+}
+
+
+.nav-item a:hover{
+    color: rgb(2, 247, 15) !important;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.nav-link active,.nav-link disabled:hover{
+    color: rgb(39, 255, 24);
+}
+#Home{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("bg.jfif");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Home h1{
+font-weight: bold;
+color: green;
+font-family: 'Times New Roman', Times, serif;
+
+
+
+}
+#Home p{
+    text-align: center;
+    color: white;
+}
+#Home .input-group{
+    width: 40%;
+    height: 30px;
+}
+#Home .signin{
+    background-color: green !important;
+    color: white !important;
+}#about{
+    background:linear-gradient(to right,rgb(215, 57, 83),rgb(204, 84, 104) 100%);
+}
+#about h1{
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+}
+#about p{
+    color: white;
+}
+
+
+#Products{
+    background-color: #e5e5e5 ;
+}
+#Products h1{
+    height: 50px;
+    color: rgb(10, 10, 10);
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Products img{
+    width: 250px;
+    height: 250px;
+}
+#Products .card{
+    background-color: #e5e5e5;
+    width: 250px;
+    height: 350px;
+    border: none;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),inset 4px 4px 10px white ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   margin: 20px 60px;
+   border-radius: 20px;
+   overflow: hidden;
+}
+
+.addcart{
+    background-color: green !important;
+    color: white !important;
+}
+.addcart:hover{
+    color: black !important;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+   
+}
+#contact input{
+    margin: 5px 0;
+}
+#contact textarea{
+    margin: 10px 0;
+}
+.setError{
+    color: red;
+    font-size: 10px;
+}
+.setSucess{
+    color: green;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
